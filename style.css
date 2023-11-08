@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@600&family=Nunito:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.zxc {
+    height: 300px;
+    width: 850px;
+    background-color: brown;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgb(163, 8, 42);
+    color: white;
+    font-size: 40px;
+    font-family: 'Kay Pho Du', serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.zxc button {
+    height: 100px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgb(199, 14, 14);
+    box-shadow: 0 0 20px white;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Comfortaa', sans-serif;
+    transition: 0.4s;
+}
+
+.zxc button:hover {
+    /* background-color: rgb(53, 100, 14); */
+    font-size: 30px;
+    border-radius: 40px;
+}
+
+@media (max-width:700px) {
+    .zxc{
+        padding: 30px;
+        width: auto;
+    }    
+
+    #btn{
+        width: auto;
+    }
+}
+
+@media (max-width:400px) {
+    .zxc {
+        width: 200px;
+    }
+    
+    #btn{
+        width: auto;
+    }
+    
+}
